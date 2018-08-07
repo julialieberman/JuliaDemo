@@ -1,0 +1,24 @@
+#wrapper{
+  width:inherit;
+  height:200px;
+  border: 5px, solid, blue;
+}
+#box{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  animation-name: animate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#top{
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+@keyframes animate{
+  from{background-color: blue;}
+  to {background-color: red;}
+}
